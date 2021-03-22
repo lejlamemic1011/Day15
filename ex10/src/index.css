@@ -1,1 +1,134 @@
+/* Basic CSS Reset*/
 
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+  font-family: sans-serif;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+/* Navbar */
+
+nav {
+  display: flex;
+  padding: 1em;
+}
+
+#nav_bar {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav-links a {
+  margin-right: 0.8em;
+  font-size: 14px;
+}
+
+#sign_in {
+  background-color: #4285f4;
+  padding-left: 0.8em;
+  padding-top: 0.4em;
+  padding-bottom: 0.4em;
+  border-radius: 5px;
+}
+
+#sign_in a {
+  color: #fff;
+  font-weight: bold;
+}
+
+/* Center of the page */
+
+.google-image {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 6em;
+}
+
+.form-search {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 7em;
+}
+
+#form-search {
+  width: 30em;
+  padding: 0.5em;
+  border-radius: 50px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 8em;
+}
+
+button {
+  margin-right: 0.3em;
+}
+
+/* Footer */
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #e3dfde;
+  padding: 1em;
+  border-top: 2px solid #adadad;
+}
+
+footer li a {
+  color: #707070;
+  padding: 0.5em;
+  font-size: 14px;
+}
+
+.footer-left,
+.footer-right {
+  display: flex;
+}
